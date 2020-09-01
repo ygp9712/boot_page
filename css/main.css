@@ -1,0 +1,435 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 640px;
+}
+.navbar{
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: 0;
+}
+#bs-example-navbar-collapse-1 > ul > li.active > a {
+  background: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+}
+#bs-example-navbar-collapse-1 > ul > li > a:hover {
+  background: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+}
+#bs-example-navbar-collapse-1 > ul > li {
+  font-size: 15px;
+}
+.carousel-inner > .item {
+  background: no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+@media screen and (min-width: 800px) {
+  .carousel-inner > .item {
+    height: 656px;
+  }
+}
+.navbar {
+  background: rgb(34,34,34);
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.LayaFlash-engine {
+  height: 700px;
+  width: 100%;
+  padding: 60px 100px;
+}
+.LayaFlash-engine > .inner-box {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+.LayaFlash-engine > .inner-box > .box-left {
+  width: 65%;
+}
+.LayaFlash-engine > .inner-box > .box-left > h1{
+  font-size: 60px;
+  color: rgb(0, 120, 215);
+}
+.LayaFlash-engine > .inner-box > .box-right {
+  width: 35%;
+}
+.LayaFlash-engine > .inner-box > .box-left > .sub-list {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 320px;
+}
+.LayaFlash-engine > .inner-box > .box-left > .sub-list > .sub-item {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 150px;
+}
+.LayaFlash-engine > .inner-box > .box-left > .sub-list > .sub-item > .right {
+  padding: 0 25px;
+}
+
+.LayaFlash-engine > .inner-box > .box-left > .sub-list > .sub-item > .right > .title {
+  font-size: 24px;
+}
+
+.LayaFlash-engine > .inner-box > .box-left > .sub-list > .sub-item > .right > .intro {
+  font-size: 18px;
+  color: #727272;
+}
+
+.Layabox-benefit {
+  height: 600px;
+  width: 100%;
+  padding: 60px 120px;
+}
+.Layabox-benefit > .inner-box {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+}
+.Layabox-benefit > .inner-box > .box-left {
+  position: relative;
+  width: 45%;
+}
+.Layabox-benefit > .inner-box > .box-left > img {
+  position: absolute;
+  width: 400px;
+  bottom: 0%;
+}
+.Layabox-benefit > .inner-box > .box-right {
+  width: 55%;
+}
+.Layabox-benefit > .inner-box > .box-right > h1 {
+  font-weight: bold;
+  font-size: 60px; 
+  color: rgb(143, 195, 31);
+}
+
+.Layabox-benefit > .inner-box > .box-right > .sub-list {
+  margin-top: 50px;
+}
+.Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item {
+  display: flex;
+  margin-bottom: 35px;
+}
+.Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item > .left> img{
+  display: inline-block;
+  width: 65px;
+}
+
+.Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item > .right > p{
+  margin-left: 20px;
+  padding-right: 15px;
+  font-size: 20px;
+  color: #8a8a8a;
+}
+.Layabox-family {
+  padding: 110px 200px;
+  color: white;
+  background-color: #0079d7;
+  width: 100%;
+  min-height: 1000px;
+  height: auto;
+}
+.Layabox-family > p {
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 60px;
+}
+.Layabox-family > .sub-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Layabox-family > .sub-list > .sub-item {
+  display: flex;
+  width: 50%;
+  margin-bottom: 80px;
+  padding-right: 50px;
+}
+.Layabox-family > .sub-list > .sub-item > .right {
+  margin-left: 50px;
+}
+.Layabox-family > .sub-list > .second {
+  padding-left: 50px;
+  padding-right: 0px;
+}
+.Layabox-family > .sub-list > .second > .right {
+  padding-right: 0px;
+}
+.Layabox-family > .sub-list > .sub-item > .right > .title{
+  font-size: 28px;
+}
+.Layabox-family > .sub-list > .sub-item > .right > .intro{
+  font-size: 15px;
+  line-height: 32px;
+  color: #dfe9f7;
+}
+.Layabox-example {
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+}
+.Layabox-example > .example-container {
+  width: 1140px;
+  padding: 100px 0 60px 0;
+  margin: 0 auto;
+}
+.Layabox-example > .example-container >  .text-line {
+  position: relative;
+  margin-bottom: 40px;
+}
+.Layabox-example > .example-container >  .text-line > .title{
+  font-size: 42px;
+}
+.Layabox-example > .example-container >  .text-line > .more{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.Layabox-example > .example-container >  .sub-area {
+  display: flex;
+}
+.Layabox-example > .example-container >  .sub-area > .left > .example-video {
+  width: 420px;
+  height: 315px;
+  border-radius: 15px;
+}
+.Layabox-example > .example-container >  .sub-area {
+  display: flex;
+}
+.Layabox-example > .example-container >  .sub-area > .right {
+  width: 100%;
+}
+.Layabox-example > .example-container >  .sub-area > .right > .sub-list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 320.4px;
+  width: 100%;
+}
+.Layabox-example > .example-container >  .sub-area > .right > .sub-list > .sub-item {
+  width: 16.66%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Layabox-example > .example-container >  .sub-area > .right > .sub-list > .sub-item > img {
+  width: 75px;
+}
+.partner {
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  background-color: #f4f4f4;
+}
+.partner > .partner-container {
+  width: 1140px;
+  padding: 50px 0 60px 0;
+  margin: 0 auto;
+}
+.partner > .partner-container > .title {
+  font-size: 50px;
+}
+.partner > .partner-container > .mini-text {
+  font-size: 16px;
+  color: #8a8a8a;
+}
+.partner > .partner-container > .corps-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.partner > .partner-container > .corps-box > .box-item {
+  margin-top: 30px;
+  width: 16.6%;
+}
+.partner > .partner-container > .corps-box > .box-item > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.bottom {
+  width: 100%;
+  height: 120px;
+  background-color: #3b3b3b;
+}
+.bottom > .bottom-container {
+  position: relative;
+  color: #8c8d94;
+  width: 1140px;
+  padding: 40px 0 20px 0;
+  margin: 0 auto;
+}
+.bottom > .bottom-container > .text > a  {
+  color: #8c8d94;
+  font-size: 18px;
+  padding-right: 15px;
+}
+.bottom > .bottom-container > a {
+  color: #8c8d94;
+}
+.bottom > .bottom-container > .icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%,0)
+}
+.bottom > .bottom-container > .icon > img {
+  margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .LayaFlash-engine > .inner-box > .box-left {
+    width: 100%;
+  }
+  .LayaFlash-engine > .inner-box > .box-right {
+    display: none;
+  }
+  
+  .Layabox-benefit > .inner-box > .box-left {
+    display: none;
+  }
+  .Layabox-benefit > .inner-box > .box-right {
+    width: 100%;
+  }
+  .Layabox-family > .sub-list > .sub-item {
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 15px;
+  }
+  .Layabox-family > .sub-list > .second {
+    padding-left: 0px;
+  }
+  .Layabox-example > .example-container >  .sub-area {
+    flex-direction: column;
+  }
+  .Layabox-example > .example-container >  .sub-area > .left {
+    padding: 0 136px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .Layabox-benefit > .inner-box > .box-right > .sub-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item > .right > p {
+    font-size: 25px;
+  }
+  .Layabox-benefit > .inner-box > .box-right > .sub-list > .sub-item > .left> img{
+    width: 75px;
+  }
+  .Layabox-example > .example-container {
+    width: 992px;
+  }
+  .Layabox-example > .example-container >  .sub-area > .left > .example-video {
+    width: 720px;
+    height: 400px;
+    border-radius: 0px;
+  }
+  .partner > .partner-container > .corps-box > .box-item {
+    width: 25%;
+  }
+  .partner > .partner-container {
+    width: 992px;
+  }
+  .bottom > .bottom-container {
+    width: 992px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #bs-example-navbar-collapse-1 > ul > li {
+    font-size: 10px;
+  }
+  .LayaFlash-engine {
+    height: 850px;
+    padding: 50px 80px;
+  }
+  .LayaFlash-engine > .inner-box > .box-left > h1{
+    font-size: 42px;
+  }
+  .LayaFlash-engine > .inner-box > .box-left > h3{
+    font-size: 20px;
+  }
+  .LayaFlash-engine > .inner-box > .box-left > .sub-list {
+    margin-top: 50px;
+  }
+  .LayaFlash-engine > .inner-box > .box-left > .sub-list > .sub-item {
+    width: 100%;
+  }
+  .Layabox-benefit > .inner-box > .box-right > h1{
+    font-size: 42px;
+  }
+  .Layabox-family {
+    padding: 50px 100px;
+  }
+  .Layabox-family > p {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .Layabox-family > .sub-list > .sub-item > .right > .intro{
+    font-size: 20px;
+    color: #dfe9f7;
+  }
+  .Layabox-example > .example-container {
+    width: 100%;
+  }
+  .Layabox-example > .example-container >  .sub-area > .right > .sub-list {
+    height: 562.4px;
+  }
+  .Layabox-example > .example-container >  .sub-area > .left > .example-video {
+    display: block;
+    border-radius: 0px;
+    margin: 0 auto;
+  }
+  .Layabox-example > .example-container >  .sub-area > .right > .sub-list > .sub-item {
+    margin-top: 30px;
+    width: 33.3%;
+  }
+  .Layabox-example > .example-container >  .sub-area > .right > .sub-list > .sub-item > p {
+    font-size: 18px;
+  }
+  .Layabox-example > .example-container >  .text-line > .more {
+    font-size: 24px;
+    color: grey;
+  }
+  .partner > .partner-container {
+    width: 100%;
+  }
+  .partner > .partner-container > .corps-box > .box-item {
+    width: 50%;
+  }
+  .partner > .partner-container > .title {
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .partner > .partner-container > .mini-text {
+    font-size: 14px;
+  }
+  .bottom > .bottom-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .bottom > .bottom-container > .icon {
+    margin-top: 15px;
+    position: static;
+    top: 0;
+    right: 0;
+    transform: translate(0,0)
+  }
+  .bottom > .bottom-container > .text > a {
+    font-size: 16px;
+  }
+}
